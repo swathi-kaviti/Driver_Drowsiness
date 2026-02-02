@@ -16,7 +16,7 @@ reye = cv2.CascadeClassifier('haar cascade files\haarcascade_righteye_2splits.xm
 
 
 lbl=['Close','Open']
-
+#loading the model
 model = load_model('models/cnncat2.h5')
 path = os.getcwd()
 cap = cv2.VideoCapture(0)
